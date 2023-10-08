@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="ventana" id="escribir">
+        <img class="fotoDePerfil" src="https://pm1.aminoapps.com/6741/a0662eb2e65430da5565a39da2d5238de2b5cee8v2_hq.jpg" alt="">
+        <button class="boton" id="abrir" onclick="abrir()">¿Que estas pensando, Coral?</button>
+    </div>
+    <div class="posts" id="posts">
+    </div>
+    <section class="modal hide" id="modal">
+        <div class="modal-content">
+            <div class="modal-barra">
+                <p>Crear publicacion</p>
+                <button class="boton" id="cerrar" onclick="cerrar()">X</button>
+            </div>
+            <div class="nombre">
+                <img class="fotoDePerfil-modal"
+                    src="https://pm1.aminoapps.com/6741/a0662eb2e65430da5565a39da2d5238de2b5cee8v2_hq.jpg" alt="">
+                <p>Laura Coral</p>
+            </div>
+            <input class="input" id="input" type="text" placeholder="¿Que estas pensando, Coral?">
+            <button class="boton" id="publicar" onclick="publicar()" disabled>Publicar</button>
+        </div>
+    </section>
+</body>
+<footer>
+    <script src="script.js"></script>
+</footer>
+
+</html>

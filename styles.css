@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 31, 31, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.ventana, .post{
+    background-color:rgb(33, 52, 52);
+    padding: 20px;
+    border-radius: 25px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.post{
+    margin: 10px;
+    flex-direction: column;
+    align-items: baseline;
+}
+.post-texto{
+    font-size: 14px;
+}
+
+.fotoDePerfil{
+    width: 65px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+#abrir{
+    padding-left: 20px;
+    text-align: left;
+}
+
+.boton{
+    background-color: rgba(71, 113, 68, 0.886);
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.boton-alter {
+    background-color: rgba(48, 171, 39, 0.886);
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+}
+
+
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(43, 31, 31, 0.5);
+    z-index: 999;
+    display: none;
+  }
+.appear{
+    display: block;
+}
+.modal-content{
+    background-color: rgb(33, 52, 52);
+    width: 40vw;
+    padding: 20px;
+    border-radius: 25px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-barra{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.modal-barra button{
+    width: 20px;
+    font-weight: bold;
+
+}
+.nombre{
+    display: flex;
+    align-items: center;
+}
+.fotoDePerfil-modal{
+    width: 50px;
+    border-radius: 100%;
+    margin: 10px;
+}
+.input{
+    background-color: transparent;
+    color: rgb(255, 0, 140);
+    border: 0;
+    outline: none;
+    width: 90%;
+    height: 100px;
+    margin: 10px;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+    text-align: top;
+}
